@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMAX TRAVEL AGENCY</title>
+</head>
+  <body>
+  		<div id="header-img">
+  			<img src="https://www.marketbeat.com/logos/imax-co-logo.jpg" alt="IMax">
+        <header id="header">
+          <h3>TRAVEL AGENCY</h3>
+        </header>
+  		</div>
+        <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#our_products">Our products</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#about_us">About Us</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      
+        <p>Feel what is real services.</p>
+  	
+    <form id="form" action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+
+      <section style="font-family: avenir; font-size: 27px;">Choose your next unforgettable vacation with us!</section>
+      <input id="email" type="email" name="email" placeholder="Enter your email address" required></input>
+      <input id="submit" type="submit" name="submit" value="take-off"></input>
+      </section>
+    </form>
+      <div class="products">
+          <h2>Real People</h2>
+            <p>More than a travel agent, your consultant is a fellow traveler with a passion to help you see the world.</p>
+          <h2>Perfect Match</h2>
+            <p>We connect you with the right consultant who will craft your ideal travel experience.</p>
+          <h2>Crafted Vacations</h2>
+            <p>Dive deeper into your destination with unique services, local guides, and exclusive experiences.</p>  
+      </div>
+      <div><iframe width="560" height="315" src="https://www.youtube.com/embed/ijKOGvJwIzY" allowfullscreen></iframe>
+      </div>
+      <br>
+      <br>
+      <section id="box-container">
+        <div class="product" id="box-1">
+          <div class="top">PUNTA CANA</div>
+          <h6>Majestic Colonial Punta Cana Vacation Package</h6>
+            <div style="font-size: 18px;" class="price">4 nights</div>
+            <div style="font-size: 18px; color: red;" class="price">from $839</div>
+        </div>
+        <br>
+        <br>
+        <div class="product" id="box-2">
+          <div class="top">DOMINICAN REPUBLIC</div>
+          <h6>Secrets Cap Cana Resort & Spa Vacation Package</h6>
+            <div style="font-size: 18px;" class="price">4 nights</div>
+            <div style="font-size: 18px; color: red;" class="price">from $1,525</div>
+        </div>
+        <br>
+        <br>
+        <div class="product" id="box-3">
+        <div class="top">ALASKA</div>
+          <h6>Holland America Line's Noordam Glacier Discovery Northbound Cruise</h6>
+            <div style="font-size: 18px;" class="price">7 nights</div>
+            <div style="font-size: 18px; color: red;" class="price">from $749</div>
+        </div>
+      </section>
+      <p class="about_us" id="about_us">Book your seaside adventure through a travel agent you can trust. If you live in Elmwood Park, NJ, an award-winning travel agency is right around the corner. You can count on Honeymoon Expo Center to help you plan a picture-perfect getaway. Our accolades include:
+
+        24 prestigious Star Awards from Sandals Resorts
+        Member of the Sandals Chairman’s Royal Club
+        #1 suite reservation center in the United States
+        Certified preferred agency for Sandals and Beaches Resorts
+        Top 10 suite reservation agency worldwide
+        Top 10 producing agent worldwide
+        Preferred agency recognition status
+        Lifetime platinum recognition status
+        Top sweet booking agency North East
+        Best of the best year after year
+        Whether you live in Elmwood Park, NJ or in the surrounding areas, we are your local travel experts – call us today!</p>
+      <ul id="contacts">
+        <li class="Phone" id="Phone">Phone: 1 (917) 603 8947</li><br>
+        <li class="buisness_email" id="buisness_email">Email: imaxtour@gmail.com</li>
+      </ul>
+  </body> 
+</html>
